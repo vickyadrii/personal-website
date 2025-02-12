@@ -14,7 +14,7 @@ const SocialMedia = ({ isResume = true }: Props) => {
     <div className="flex items-center md:gap-6 gap-4">
       {isResume && (
         <Link
-          href="https://docs.google.com/document/d/133M4LP55oJaltng-ZbwIoO4Rb8RmRt8CvKZOl12SAFo/edit?usp=sharing"
+          href="https://docs.google.com/document/d/1HlxOJOguPEwffZP168cXbCIQoUoMq4_idJASMHYaPZg/edit?usp=sharing"
           target="_blank"
         >
           <ButtonIcon icon={getAssetUrl("/icons/ic_arrow_down.svg")}>View Resume</ButtonIcon>
