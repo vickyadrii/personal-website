@@ -55,7 +55,7 @@ export const workExperience: Activity[] = [
       "Implemented unit testing from 0% to 82.1% coverage, reducing regression issues, and minimizing existing bugs for a stable and maintainable codebase.",
       "Migrated JavaScript codebases to TypeScript in an employee attendance app, minimizing errors to simplify debugging and resulting in a reliable development experience.",
       "Created detailed project documentation, improving onboarding efficiency and ensuring smoother knowledge transfer within the team, making role transitions easier when team members switch positions.",
-      "Integrated Firebase Cloud Messaging (FCM) to deliver real-time push notifications, helping employees instantly know whether their leave request was approved or rejected.",
+      "Integrated Firebase Cloud Mess aging (FCM) to deliver real-time push notifications, helping employees instantly know whether their leave request was approved or rejected. ",
     ],
   },
   {
