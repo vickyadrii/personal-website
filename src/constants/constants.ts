@@ -50,11 +50,12 @@ export const workExperience: Activity[] = [
     company_url: "https://pegadaian.co.id",
     title: "Fullstack Engineer",
     period: "Aug 2024 - Present",
-    tech_stacks: ["JavaScript", "TypeScript", "VueJS", "NestJS", "Laravel", "PostgreSQL", "Redis"],
+    tech_stacks: ["TypeScript", "PHP", "VueJS", "NestJS", "Laravel", "PostgreSQL", "Redis"],
     responsibilities: [
-      "Migrated JavaScript codebases to TypeScript in an employee attendance app to simplify debugging, and minimize errors, resulting in a reliable development experience.",
-      "Refactored components from Option API to Composition API for better scalability and maintainability.",
-      "Built and implemented custom components to reusability across projects, and reduce code duplication.",
+      "Implemented unit testing from 0% to 82.1% coverage, reducing regression issues, and minimizing existing bugs for a stable and maintainable codebase.",
+      "Migrated JavaScript codebases to TypeScript in an employee attendance app, minimizing errors to simplify debugging and resulting in a reliable development experience.",
+      "Created detailed project documentation, improving onboarding efficiency and ensuring smoother knowledge transfer within the team, making role transitions easier when team members switch positions.",
+      "Integrated Firebase Cloud Messaging (FCM) to deliver real-time push notifications, helping employees instantly know whether their leave request was approved or rejected.",
     ],
   },
   {
@@ -64,12 +65,12 @@ export const workExperience: Activity[] = [
     company_url: "https://eduqat.com",
     title: "Frontend Engineer",
     period: "Jan 2023 - Jul 2024",
-    tech_stacks: ["JavaScript", "React", "NextJS", "Redux", "GraphQL", "Styled-Components", "Tailwind"],
+    tech_stacks: ["TypeScript", "React", "NextJS", "Redux", "GraphQL", "Ant Design", "Styled-Components", "Tailwind"],
     responsibilities: [
-      "Migrated the platform's styling from the usage of Styled-components and Ant Design to Tailwind.",
-      "Built, maintained, and improved Eduqat’s platform, while implementing clean code practices and agile methodologies.",
-      "Developed an assignment feature for educators and students that allowed educators to create assignment materials, publish scores, view attachments from students, and provide feedback to their students.",
-      "Developed a drip course feature that enabled educators to manage access to materials for their students. When the drip course was enabled, students could access materials after enrolling in the previous material.",
+      "Migrated styling from Ant Design to Tailwind, reducing bundle size and improving rendering performance.",
+      "Developed an AI-powered assignment feature, enabling teachers to automatically assess submissions, provide instant feedback, and assign grades efficiently.",
+      "Built and implemented custom components, reducing code duplication and enabling reusable components with multiple variants for better maintainability.",
+      "Developed a drip course feature, allowing teachers to schedule and release course content by sections, providing a quick and easy way to deliver materials.",
     ],
   },
   {
@@ -81,9 +82,8 @@ export const workExperience: Activity[] = [
     period: "Aug 2022 - Dec 2022",
     tech_stacks: ["JavaScript", "React", "NextJS", "NodeJS", "ExpressJS", "MySQL", "Tailwind"],
     responsibilities: [
-      "Developed a chatbot feature that allowed automated interaction with customers.",
-      "Developed a project that enabled the company to broadcast messages to customers.",
-      "Developed reusable components within projects, reduced redundancy, and enhanced feature consistency.",
+      "Migrated a broadcast message feature from SMS to WhatsApp, allowing admins to send bulk messages more efficiently and improve communication with customers.",
+      "Developed a chatbot feature, making interacting with customers and responding to their inquiries easier.",
     ],
   },
   // {
