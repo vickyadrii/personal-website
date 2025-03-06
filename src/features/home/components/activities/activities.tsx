@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 import { getAssetUrl } from "@/lib/utils";
-import { activities } from "@/constants/constants";
+import { activities } from "@/constants";
 
 import TitleSection from "@/components/common/title-section/title-section";
 
 const Activities = () => {
   return (
     <section id="activities" className="space-y-8 pt-8 border-b border-b-primary-dark-600">
-      <TitleSection title="Activities" description="Here are my activities and being a mentor:" />
+      <TitleSection title="Activities" description="Here are my activities and mentoring experiences:" />
 
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-4 pb-8">
         {activities.map(({ id, logo, company_name, period, title }) => (

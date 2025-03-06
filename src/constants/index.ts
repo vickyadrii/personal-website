@@ -2,7 +2,7 @@ import { NavbarItem, SocialMedia, Activity, Project } from "@/types/types";
 
 export const navbarItems: NavbarItem[] = [
   {
-    label: "Experiences",
+    label: "Work Experience",
     href: "#experiences",
   },
   {
@@ -50,7 +50,7 @@ export const workExperience: Activity[] = [
     company_url: "https://pegadaian.co.id",
     title: "Fullstack Engineer",
     period: "Aug 2024 - Present",
-    tech_stacks: ["TypeScript", "PHP", "VueJS", "NestJS", "Laravel", "PostgreSQL", "Redis"],
+    tech_stacks: ["TypeScript", "VueJS", "NestJS", "React Native", "Laravel", "Redis", "PostgreSQL"],
     responsibilities: [
       "Implemented unit testing from 0% to 82.1% coverage, reducing regression issues, and minimizing existing bugs for a stable and maintainable codebase.",
       "Migrated JavaScript codebases to TypeScript in an employee attendance app, minimizing errors to simplify debugging and resulting in a reliable development experience.",
@@ -101,29 +101,36 @@ export const workExperience: Activity[] = [
 ];
 
 export const activities: Activity[] = [
-  {
-    id: 0,
-    logo: "/icons/ic_bearmentor.png",
-    company_name: "Bearmentor",
-    title: "Frontend Mentor",
-    period: "Jun 2024 - Present",
-  },
+  // {
+  //   id: 0,
+  //   logo: "/icons/ic_bearmentor.png",
+  //   company_name: "Bearmentor",
+  //   title: "Frontend Mentor",
+  //   period: "Jun 2024 - Present",
+  // },
   {
     id: 1,
     logo: "/icons/ic_hammercode.svg",
-    company_name: "HammerCode",
-    title: "Frontend Mentor",
-    period: "May 2023 - May 2024",
+    company_name: "Hammercode",
+    title: "Mentor/Facilitator",
+    period: "May 2023 - Present",
   },
   {
     id: 2,
+    logo: "/icons/ic_gdsc-untad.png",
+    company_name: "GDSC Untad",
+    title: "Curriculum Core Team",
+    period: "Oct 2022 - Oct 2023",
+  },
+  {
+    id: 3,
     logo: "/icons/ic_bangkit.png",
     company_name: "Bangkit Academy",
     title: "Cloud Computing Path",
     period: "Feb 2022 - Jul 2022",
   },
   {
-    id: 3,
+    id: 4,
     logo: "/icons/ic_programming-tadulako.png",
     company_name: "Programming Tadulako",
     title: "Web Development Mentor",
@@ -138,31 +145,49 @@ export const projects: Project[] = [
     name: "Daily Course",
     summary:
       "Daily Course is a learning platform for those who want to learn about technologies in a fun and chill way.",
-    tech_stacks: ["NextJS", "Tailwind", "ShadcnUI", "Go", "PostgreSQL"],
+    tech_stacks: [
+      "TypeScript",
+      "Go",
+      "Echo",
+      "NextJS",
+      "Cloud Build",
+      "Cloud Run",
+      "CI/CD",
+      "Docker",
+      "Tailwind",
+      "PostgreSQL",
+    ],
   },
   {
     id: 1,
     thumbnail: "/images/village-web.png",
     name: "Website Desa",
     summary: "A platform designed for villages to create and customize their landing page websites.",
-    tech_stacks: ["React", "Laravel", "Tailwind", "Zustand", "MySQL"],
+    tech_stacks: ["React", "Laravel", "Tailwind", "Ant Design", "Zustand", "MySQL", "VPS"],
   },
   {
     id: 2,
-    thumbnail: "/images/badonordarah.png",
-    name: "Badonordarah",
-    summary: "Facilitate blood donation and assist those in need of blood in Palu city.",
-    tech_stacks: ["React", "Vite", "Tailwind", "ExpressJS", "MySQL"],
+    thumbnail: "/images/impact-palu.png",
+    name: "Impact Palu",
+    summary: "Impact Palu is a social entrepreneurship incubator based in Palu.",
+    tech_stacks: ["TypeScript", "Vite", "React", "Tailwind", "Shadcn UI"],
   },
   {
     id: 3,
     thumbnail: "/images/hrev.png",
     name: "HREV",
     summary: "HREV is a software house specializing in software development and IT services",
-    tech_stacks: ["React", "Typescript", "Vite", "Tailwind"],
+    tech_stacks: ["Typescript", "React", "Vite", "Tailwind"],
   },
   // {
   //   id: 4,
+  //   thumbnail: "/images/badonordarah.png",
+  //   name: "Badonordarah",
+  //   summary: "Facilitate blood donation and assist those in need of blood in Palu city.",
+  //   tech_stacks: ["React", "Vite", "Tailwind", "ExpressJS", "MySQL"],
+  // },
+  // {
+  //   id: 5,
   //   thumbnail: "/images/sn-residence.png",
   //   name: "SN Residence",
   //   summary:

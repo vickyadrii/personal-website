@@ -1,6 +1,6 @@
 import TitleSection from "@/components/common/title-section/title-section";
 import Badge from "@/components/ui/badge/badge";
-import { workExperience } from "@/constants/constants";
+import { workExperience } from "@/constants";
 import { getAssetUrl } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";

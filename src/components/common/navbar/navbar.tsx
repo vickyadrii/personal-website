@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-import { navbarItems } from "@/constants/constants";
+import { navbarItems } from "@/constants";
 import Cursor from "./cursor";
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
                     left: offsetLeft,
                   });
                 }}
-                className="relative z-10 block cursor-pointer text-white/80 md:px-5 md:py-2.5 px-3 py-1.5 text-sm mix-blend-difference"
+                className="relative z-10 block cursor-pointer text-white/80 md:px-5 md:py-2.5 px-3 py-1.5 md:text-sm text-xs"
               >
                 {label}
               </li>

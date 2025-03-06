@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getAssetUrl } from "@/lib/utils";
-import { socialMedia } from "@/constants/constants";
+import { socialMedia } from "@/constants";
 
 import ButtonIcon from "@/components/ui/button-icon/button-icon";
 

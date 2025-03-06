@@ -1,4 +1,4 @@
-import { projects } from "@/constants/constants";
+import { projects } from "@/constants";
 
 import Card from "@/components/ui/card/card";
 import Badge from "@/components/ui/badge/badge";
@@ -16,6 +16,7 @@ const Projects = () => {
               <div className="space-y-2">
                 <h2>{name}</h2>
                 <p className="text-xs text-primary-dark-500 leading-5 min-h-10">{summary}</p>
+                <p></p>
               </div>
               <div className="flex items-end gap-2 flex-wrap">
                 {tech_stacks.map((item, index) => (

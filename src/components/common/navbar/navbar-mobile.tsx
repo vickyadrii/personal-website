@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { getAssetUrl } from "@/lib/utils";
-import { navbarItems } from "@/constants/constants";
+import { navbarItems } from "@/constants";
 
 const NavbarMobile = () => {
   const [showMenu, setShowMenu] = useState<boolean>(false);
