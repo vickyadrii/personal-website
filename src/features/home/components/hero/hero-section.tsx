@@ -7,7 +7,8 @@ const HeroSection = () => {
       <h1 className="gradient-text md:text-5xl text-3xl md:h-14 inline-block font-bold">Software Engineer</h1>
 
       <p className="text-primary-dark-500 md:text-base text-sm md:leading-8 leading-6">
-        Full-stack engineer with 3+ years of experience in mobile and web development <br /> using JavaScript and Go.
+        A fullstack developer heavy on the JavaScript environment, building web and mobile apps <br /> with React,
+        Next.js, and NestJS. Recently having fun with VueJS.
       </p>
       <SocialMedia />
     </section>
