@@ -141,6 +141,13 @@ export const activities: Activity[] = [
 export const projects: Project[] = [
   {
     id: 0,
+    thumbnail: "/images/aralia.webp",
+    name: "Aralia",
+    summary: "Aralia is an employee management application used to manage employees.",
+    tech_stacks: ["TypeScript", "Microservices", "Vue.js", "Nest.js", "Express.js", "Redis", "Tailwind", "PostgreSQL"],
+  },
+  {
+    id: 1,
     thumbnail: "/images/daily-course.png",
     name: "Daily Course",
     summary:
@@ -159,26 +166,26 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     thumbnail: "/images/village-web.png",
     name: "Website Desa",
     summary: "A platform designed for villages to create and customize their landing page websites.",
     tech_stacks: ["React", "Laravel", "Tailwind", "Ant Design", "Zustand", "MySQL", "VPS"],
   },
   {
-    id: 2,
+    id: 3,
     thumbnail: "/images/impact-palu.png",
     name: "Impact Palu",
     summary: "Impact Palu is a social entrepreneurship incubator based in Palu.",
     tech_stacks: ["TypeScript", "Vite", "React", "Tailwind", "Shadcn UI"],
   },
-  {
-    id: 3,
-    thumbnail: "/images/hrev.png",
-    name: "HREV",
-    summary: "HREV is a software house specializing in software development and IT services",
-    tech_stacks: ["Typescript", "React", "Vite", "Tailwind"],
-  },
+  // {
+  //   id: 4,
+  //   thumbnail: "/images/hrev.png",
+  //   name: "HREV",
+  //   summary: "HREV is a software house specializing in software development and IT services",
+  //   tech_stacks: ["Typescript", "React", "Vite", "Tailwind"],
+  // },
   // {
   //   id: 4,
   //   thumbnail: "/images/badonordarah.png",
