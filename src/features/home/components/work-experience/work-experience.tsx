@@ -8,7 +8,11 @@ import Link from "next/link";
 const WorkExperience = () => {
   return (
     <section id="experiences" className="space-y-8 pt-8 border-y border-y-primary-dark-600">
-      <TitleSection title="Work Experience" description="Here are my work experience and career highlights:" />
+      <TitleSection
+        title="Work Experience"
+        description="Here are my work experience and career highlights:"
+        note="(Last Updated: 20 December 2025)"
+      />
 
       <div className="space-y-8 pb-8">
         {workExperience.map(({ id, logo, company_name, company_url, title, period, tech_stacks, responsibilities }) => (

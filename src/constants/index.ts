@@ -49,13 +49,13 @@ export const workExperience: Activity[] = [
     company_name: "Pegadaian",
     company_url: "https://pegadaian.co.id",
     title: "Fullstack Engineer",
-    period: "Aug 2024 - Present",
+    period: "Jul 2024 - Dec 2025",
     tech_stacks: ["TypeScript", "VueJS", "NestJS", "React Native", "Laravel", "Redis", "PostgreSQL"],
     responsibilities: [
-      "Implemented unit testing from 0% to 82.1% coverage, reducing regression issues, and minimizing existing bugs for a stable and maintainable codebase.",
-      "Migrated JavaScript codebases to TypeScript in an employee attendance app, minimizing errors to simplify debugging and resulting in a reliable development experience.",
+      "Led a team of 5 engineers to develop an attendance app, migrating codebases from monolith to microservices architecture for better maintainability and fault isolation, restructuring database schema and queries to improve API performance, and building reusable UI components to reduce development time.",
+      "Optimized API performance and database queries, reducing response time from 3 seconds to 249ms (~91%) and significantly improving overall system performance and user experience.",
+      "Enhanced codebase stability by implementing unit testing from 0% to 82.1%, reducing production bugs by 40%, accelerating debugging, and improving application stability.",
       "Created detailed project documentation, improving onboarding efficiency and ensuring smoother knowledge transfer within the team, making role transitions easier when team members switch positions.",
-      "Integrated Firebase Cloud Mess aging (FCM) to deliver real-time push notifications, helping employees instantly know whether their leave request was approved or rejected. ",
     ],
   },
   {
@@ -67,8 +67,8 @@ export const workExperience: Activity[] = [
     period: "Jan 2023 - Jul 2024",
     tech_stacks: ["TypeScript", "React", "NextJS", "Redux", "GraphQL", "Ant Design", "Styled-Components", "Tailwind"],
     responsibilities: [
+      "Developed an AI-powered assignment feature, enabling teachers to evaluate student submissions, generate instant feedback, and assign grades, improving assessment accuracy and reducing review time by over 80%.",
       "Migrated styling from Ant Design to Tailwind, reducing bundle size and improving rendering performance.",
-      "Developed an AI-powered assignment feature, enabling teachers to automatically assess submissions, provide instant feedback, and assign grades efficiently.",
       "Built and implemented custom components, reducing code duplication and enabling reusable components with multiple variants for better maintainability.",
       "Developed a drip course feature, allowing teachers to schedule and release course content by sections, providing a quick and easy way to deliver materials.",
     ],
@@ -101,36 +101,36 @@ export const workExperience: Activity[] = [
 ];
 
 export const activities: Activity[] = [
-  // {
-  //   id: 0,
-  //   logo: "/icons/ic_bearmentor.png",
-  //   company_name: "Bearmentor",
-  //   title: "Frontend Mentor",
-  //   period: "Jun 2024 - Present",
-  // },
+  {
+    id: 0,
+    logo: "/icons/ic_bearmentor.png",
+    company_name: "Bearmentor",
+    title: "Frontend Mentor",
+    period: "Jun 2024 - Dec 2025",
+  },
   {
     id: 1,
     logo: "/icons/ic_hammercode.svg",
     company_name: "Hammercode",
     title: "Mentor/Facilitator",
-    period: "May 2023 - Present",
+    period: "May 2023 - Dec 2024",
   },
+  // {
+  //   id: 2,
+  //   logo: "/icons/ic_gdsc-untad.png",
+  //   company_name: "GDSC Untad",
+  //   title: "Curriculum Core Team",
+  //   period: "Oct 2022 - Oct 2023",
+  // },
   {
     id: 2,
-    logo: "/icons/ic_gdsc-untad.png",
-    company_name: "GDSC Untad",
-    title: "Curriculum Core Team",
-    period: "Oct 2022 - Oct 2023",
-  },
-  {
-    id: 3,
     logo: "/icons/ic_bangkit.png",
     company_name: "Bangkit Academy",
     title: "Cloud Computing Path",
     period: "Feb 2022 - Jul 2022",
   },
   {
-    id: 4,
+    id: 3,
     logo: "/icons/ic_programming-tadulako.png",
     company_name: "Programming Tadulako",
     title: "Web Development Mentor",
