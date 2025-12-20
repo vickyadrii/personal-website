@@ -50,7 +50,8 @@ export const workExperience: Activity[] = [
     company_url: "https://pegadaian.co.id",
     title: "Fullstack Engineer",
     period: "Jul 2024 - Dec 2025",
-    tech_stacks: ["TypeScript", "VueJS", "NestJS", "React Native", "Laravel", "Redis", "PostgreSQL"],
+    tech_stacks: ["TypeScript", "Vue.js", "Nest.js", "React Native", "PostgreSQL", "GCP", "Redis", "Docker"],
+
     responsibilities: [
       "Led a team of 5 engineers to develop an attendance app, migrating codebases from monolith to microservices architecture for better maintainability and fault isolation, restructuring database schema and queries to improve API performance, and building reusable UI components to reduce development time.",
       "Optimized API performance and database queries, reducing response time from 3 seconds to 249ms (~91%) and significantly improving overall system performance and user experience.",
