@@ -52,8 +52,8 @@ export const workExperience: Activity[] = [
     period: "Dec 2025 - Present",
     tech_stacks: ["TypeScript", "Express.js", "Nest.js", "React", "AWS", "PostgreSQL", "Docker"],
     responsibilities: [
-      "Organized full-stack web development workshop, helping participants build real projects using modern tools and frameworks, while applying best practices in code structure, version control, and agile collaboration.",
-      "Supported teammates in developing their technical skills through practical sessions, code reviews during community project work, and sharing practical tips as we worked together.",
+      "Designed and implemented a CI/CD pipeline to replace manual EC2 deployments, automating build and release processes, reducing human error, and improving deployment speed and reliability.",
+      "Migrated JavaScript codebase to TypeScript, improving codebases, type safety, and long-term maintainability.",
     ],
   },
   {
