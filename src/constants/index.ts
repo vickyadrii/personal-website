@@ -45,6 +45,19 @@ export const socialMedia: SocialMedia[] = [
 export const workExperience: Activity[] = [
   {
     id: 0,
+    logo: "/icons/ic_brms.webp",
+    company_name: "Bumi Resource Minerals",
+    company_url: "https://www.bumiresourcesminerals.com",
+    title: "Software Engineer",
+    period: "Dec 2025 - Present",
+    tech_stacks: ["TypeScript", "Express.js", "Nest.js", "React", "AWS", "PostgreSQL", "Docker"],
+    responsibilities: [
+      "Organized full-stack web development workshop, helping participants build real projects using modern tools and frameworks, while applying best practices in code structure, version control, and agile collaboration.",
+      "Supported teammates in developing their technical skills through practical sessions, code reviews during community project work, and sharing practical tips as we worked together.",
+    ],
+  },
+  {
+    id: 1,
     logo: "/icons/ic_pegadaian.png",
     company_name: "Pegadaian",
     company_url: "https://pegadaian.co.id",
@@ -60,7 +73,7 @@ export const workExperience: Activity[] = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     logo: "/icons/ic_eduqat.svg",
     company_name: "Eduqat",
     company_url: "https://eduqat.com",
@@ -75,7 +88,7 @@ export const workExperience: Activity[] = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     logo: "/icons/ic_kalla.svg",
     company_name: "Kalla Group",
     company_url: "https://kalla.co.id",
@@ -88,7 +101,7 @@ export const workExperience: Activity[] = [
     ],
   },
   // {
-  //   id: 3,
+  //   id: 4,
   //   logo: "/icons/ic_kodingna.png",
   //   company_name: "Kodingna",
   //   title: "Frontend Web Developer",

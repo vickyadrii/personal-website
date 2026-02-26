@@ -17,7 +17,9 @@ const SocialMedia = ({ isResume = true }: Props) => {
           href="https://docs.google.com/document/d/1HlxOJOguPEwffZP168cXbCIQoUoMq4_idJASMHYaPZg/edit?usp=sharing"
           target="_blank"
         >
-          <ButtonIcon icon={getAssetUrl("/icons/ic_arrow_down.svg")}>View Resume</ButtonIcon>
+          <ButtonIcon enableSweepHover icon={getAssetUrl("/icons/ic_arrow_down.svg")}>
+            View Resume
+          </ButtonIcon>
         </Link>
       )}
       <ul className="flex items-center md:gap-4 gap-4">

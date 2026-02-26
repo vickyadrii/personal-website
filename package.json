@@ -9,7 +9,7 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "prepare": "husky",
     "check-format": "prettier --check .",
     "format": "prettier --write ."

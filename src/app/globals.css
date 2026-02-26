@@ -39,3 +39,28 @@ textarea::placeholder {
   background-clip: text;
   text-fill-color: transparent;
 }
+
+@keyframes resume-sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.resume-sweep-hover .resume-sweep-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100%);
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.resume-sweep-hover:hover .resume-sweep-overlay {
+  opacity: 1;
+  animation: resume-sweep 1.6s ease-in-out infinite;
+}

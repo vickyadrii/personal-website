@@ -11,7 +11,7 @@ const WorkExperience = () => {
       <TitleSection
         title="Work Experience"
         description="Here are my work experience and career highlights:"
-        note="(Last Updated: 20 December 2025)"
+        note="(Last Updated: 25 February 2026)"
       />
 
       <div className="space-y-8 pb-8">
@@ -31,7 +31,9 @@ const WorkExperience = () => {
             </div>
 
             <div className="flex items-center gap-2 flex-wrap">
-              {tech_stacks?.map((item, index) => <Badge key={index}>{item}</Badge>)}
+              {tech_stacks?.map((item, index) => (
+                <Badge key={index}>{item}</Badge>
+              ))}
             </div>
 
             <div className="space-y-2">
